@@ -176,6 +176,10 @@ ol {
   user-select: none;
 }
 
+.search-form__label-text:hover {
+  text-decoration: underline;
+}
+
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
@@ -237,11 +241,12 @@ ol {
   flex-grow: 1;
   gap: 30px;
 }
- .content__list::-webkit-scrollbar {
-  width: 0; 
-  height: 0; 
+.content__list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 .content__video-card {
+  width: ;
   border: 2px solid transparent;
   display: flex;
   justify-content: space-between;
